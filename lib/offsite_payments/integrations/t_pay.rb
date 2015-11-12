@@ -47,7 +47,7 @@ module OffsitePayments #:nodoc:
         mapping :billing_address, city:    'miasto',
                                   address: 'adres',
                                   zip:     'kod',
-                                  kraj:    'kraj'
+                                  country: 'kraj'
 
         mapping :notify_url,        'wyn_url'
         mapping :notify_email,      'wyn_email'

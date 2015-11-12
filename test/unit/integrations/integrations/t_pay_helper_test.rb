@@ -37,7 +37,7 @@ class TPayHelperTest < Test::Unit::TestCase
     @helper.billing_address city:    'Testowo',
                             address: 'Testowa 12/3',
                             zip:     '12-345',
-                            kraj:    'Polska'
+                            country: 'Polska'
 
     assert_field 'miasto', 'Testowo'
     assert_field 'adres',  'Testowa 12/3'
